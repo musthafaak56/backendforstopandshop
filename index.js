@@ -26,7 +26,7 @@ server.use(router)
 
 //route -localhost://5000
 server.get('/',(req,res)=>{
-    res.status(200).json(res)
+    res.status(200).json('E-commerce Service Response')
 })
 
 //4.2  to run the server application
